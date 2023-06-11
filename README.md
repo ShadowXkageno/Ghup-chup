@@ -46,7 +46,7 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env or :q
 
 <h1>
     <p align="center">
-        <a href="https://heroku.com/deploy?template=https://github.com/Infamous-Hydra/Miko-Music">
+        <a href="https://heroku.com/deploy?template=https://github.com/ShadowXkageno/Ghup-chup">
             <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
         </a>
     </p>
