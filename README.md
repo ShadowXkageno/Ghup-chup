@@ -1,5 +1,5 @@
 <h2 align="center">
-    ──「 MIKO ダ MUSIC 」──
+    ──「 MIKU ダ MUSIC 」──
 </h2>
 
 <p align="center">
