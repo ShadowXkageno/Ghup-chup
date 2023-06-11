@@ -8,11 +8,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "24427150"))
-API_HASH = getenv("API_HASH", "9fcc60263a946ef550d11406667404fa")
+API_ID = int(getenv("API_ID", "28515844"))
+API_HASH = getenv("API_HASH", "806ae0037f81b4db8a2df8e1c206d34b")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "61244216124421352352:AAFhQTdOPnE9E0cGRPeAxcBtaOjjCJjFadQ")
+BOT_TOKEN = getenv("BOT_TOKEN", "6053431823:AAHHFknaSW5IoYvuIAhBUTwRGupVo8RMGSQ")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://sukuna:fazaljuly2@sukuna.vipbn9a.mongodb.net/?retryWrites=true&w=majority")
@@ -31,10 +31,10 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001811223382"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Miku")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "hinata")
 
 # Your User ID.
-OWNER_ID = list(map(int, getenv("OWNER_ID", "6111517884").split()))  # Input type must be interger
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5715764478").split()))  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -54,9 +54,9 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Sojaaobhai")
+    "SUPPORT_CHANNEL", "https://t.me/botsupportx")
 # Example:- https://t.me/HydraXSupport
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Sojaaobhai")  # Example:- https://t.me/HydraXSupport
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/botsupportx")  # Example:- https://t.me/HydraXSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
@@ -125,7 +125,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @HydraStringBot
-STRING1 = getenv("STRING_SESSION", "BQCZsMO9keH_y2B2i1QA4FMR-341li7clUVZrYeKcDtRbunDl7DtnqMJWD95b_3nPld0tKoRoX1tgP9FcJF7g6KetJmSTRzevaZmoRyY10Tlg6ZUfhYdx6mL2EanUjywEDwimVSZVm8beIVnr9uzBJp4JWMHYLj0cuT1bnFHp84NET_jgo1fRsF887dRviNBNbe_xA6fzcEVxLG0L8Fq6vTh06UU6q1tN_qpohepbWi5QK0tbwKygq0k-pDIzNwPugIWQ9sjCG8z3rWiyGqsVkhO3cvjzBrvk-Ve-mkqw86f73WDIDFuVfQkN31n0fvH0e5y5aPehbo3e4TXYlWH9OUof4F4EgA")
+STRING1 = getenv("STRING_SESSION", "BQA-trp6eMapXx6ZL9Z2hu-mNH2OhE70o28U8z_3egq1i-WOOZ-DAvSuacCNlLHFuTG5XwybDuJbdo9yp3eKccavWAf7GzgXVDs3oO1bytaz0bdI94QY33VY7mjan4bh5cyHJbiU_nnA0NZYF0BKMB_XLbt72BM5VUtKOMQ61gcQZHTNESXpngvtwlaY_1MOo8-vZLiFBSsAg0qokeUGMLBWI2jd-_7H8pOuRgCcvf6H_71q0ChujgbYUG4l3VSsWb4Wnxr61MdquKk82M-G6hxQGFCgtEEL6LvmzPVmonldHRLZSl1nNm-7Doc1oZ8JBeKrB3iaDy8wG1AX2SLSr9R3AAAAAWWuu2YA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
